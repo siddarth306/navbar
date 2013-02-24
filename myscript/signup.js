@@ -1,17 +1,13 @@
 // Login Form
 
 $(function() {
-
-
-
- 
-$('#datepicker').datepicker();
-/*
-  $( "#progressbar" ).progressbar({
+    $('#datepicker').datepicker();
+    /*
+      $( "#progressbar" ).progressbar({
       value: 20
+      });
+    */
+    $(function() {
+        $( "#statemenu" ).menu();
     });
-*/
- $(function() {
-    $( "#statemenu" ).menu();
-  });
 });
