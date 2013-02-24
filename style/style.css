@@ -15,11 +15,11 @@ a { text-decoration:none }
 }
 
 /* Login Button */
-#loginButton { 
+#loginButton {
     display:inline-block;
     float:right;
-    background:#d2e0ea url(../images/buttonbg.png) repeat-x; 
-    border:1px solid #899caa; 
+    background:#d2e0ea url(../images/buttonbg.png) repeat-x;
+    border:1px solid #899caa;
     border-radius:3px;
     -moz-border-radius:3px;
     position:relative;
@@ -27,11 +27,11 @@ a { text-decoration:none }
     cursor:pointer;
 }
 
-#signupButton { 
+#signupButton {
     display:inline-block;
     float:right;
-    background:#d6e0ea url(../images/buttonbg.png) repeat-x; 
-    border:1px solid #899caa; 
+    background:#d6e0ea url(../images/buttonbg.png) repeat-x;
+    border:1px solid #899caa;
     border-radius:7px;
     -moz-border-radius:7px;
     position:relative;
@@ -40,10 +40,10 @@ a { text-decoration:none }
 }
 /* Login Button Text */
 #loginButton span {
-    color:#445058; 
-    font-size:14px; 
-    font-weight:bold; 
-    text-shadow:1px 1px #fff; 
+    color:#445058;
+    font-size:14px;
+    font-weight:bold;
+    text-shadow:1px 1px #fff;
     padding:7px 29px 9px 10px;
     background:url(../images/loginArrow.png) no-repeat 53px 7px;
     display:block
@@ -62,7 +62,7 @@ a { text-decoration:none }
     z-index:29;
 }
 
-/* If the Login Button has been clicked */    
+/* If the Login Button has been clicked */
 #loginButton.active {
     border-radius:3px 3px 0 0;
 }
@@ -82,7 +82,7 @@ a { text-decoration:none }
 
 /* Login Form */
 #loginForm {
-    width:248px; 
+    width:248px;
     border:1px solid #899caa;
     border-radius:3px 0 3px 3px;
     -moz-border-radius:3px 0 3px 3px;
@@ -97,7 +97,7 @@ a { text-decoration:none }
     padding:0;
 }
 #signupForm {
-    width:80%; 
+    width:80%;
     border:1px solid #899caa;
     border-radius:3px 0 3px 3px;
     -moz-border-radius:3px 0 3px 3px;
@@ -172,20 +172,20 @@ fieldset#body {
     -moz-box-shadow:inset 0px 1px 3px #bbb;
     font-size:12px;
 }/*
-#signupForm input {
-    width:10%;
-    border:1px solid #899caa;
-    border-radius:3px;
-    -moz-border-radius:3px;
-    color:#3a454d;
-    font-weight:bold;
-    padding:8px 8px;
-    box-shadow:inset 0px 1px 3px #bbb;
-    -webkit-box-shadow:inset 0px 1px 3px #bbb;
-    -moz-box-shadow:inset 0px 1px 3px #bbb;
-    font-size:12px;
-}
-/* Sign In Button */
+   #signupForm input {
+   width:10%;
+   border:1px solid #899caa;
+   border-radius:3px;
+   -moz-border-radius:3px;
+   color:#3a454d;
+   font-weight:bold;
+   padding:8px 8px;
+   box-shadow:inset 0px 1px 3px #bbb;
+   -webkit-box-shadow:inset 0px 1px 3px #bbb;
+   -moz-box-shadow:inset 0px 1px 3px #bbb;
+   font-size:12px;
+   }
+   /* Sign In Button */
 #loginForm #login {
     width:auto;
     float:left;
